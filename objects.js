@@ -6,6 +6,22 @@ const user1 = {
     lastlogin :"monday"
 
 }
-console.log(user1["age"]);
+
+
+
+// how to access the object value 
+
+// 1 Dot notation 
 console.log(user1.name);
+
+// 2 Bracket Notation
+console.log(user1["age"]);
+
+
+// add and update value
+
+user1.name = "saurav";
+
 console.log(user1);
+
+
