@@ -1,23 +1,23 @@
 
-//this keyword
+// this keyword
 
-// const user ={
-//     username : "gaurav",
-//     price : 999,
+const user ={
+    username : "gaurav",
+    price : 999,
 
-//   welcomemessage : function() {
-//     console.log(`${this.username} ,welcome to messages`);
-//     console.log(this);
+  welcomemessage : function() {
+    console.log(`${this.username} ,welcome to messages`);
+    console.log(this);
 
-// }
-// }
-// user.welcomemessage();
-// user.username ="sam"
-// user.welcomemessage();
-// user.username ="srv"
-// user.price = 2000
-// user.welcomemessage();
-// console.log(this)
+}
+}
+user.welcomemessage();
+user.username ="sam"
+user.welcomemessage();
+user.username ="srv"
+user.price = 2000
+user.welcomemessage();
+console.log(this)
 
 
 //
