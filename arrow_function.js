@@ -20,19 +20,6 @@
 // console.log(this)
 
 
-// arrow function 
-
-const user2 = () => {
-        let username = "grv"
-        phoneno = 7079762373
-        console.log(this.username)
-
-
-
-}
-user2()
-
-
 //
 
 
