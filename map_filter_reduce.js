@@ -15,6 +15,8 @@ console.log(even);
 
 // reduce 
 
+
+
 const nums3 = [1,2,3,4,5];
 const sum = nums3.reduce((acc,n)=>acc+n,0);
 console.log(sum);
