@@ -9,8 +9,8 @@ console.log(double);
 
 // filter 
 const nums2 = [1,2,3,4,5,6];
-const even = nums2.filter(n=>n%2===0);
-console.log(even);
+const newnum = nums2.filter((num)=> num>4);
+console.log(newnum);
 
 
 // reduce 
