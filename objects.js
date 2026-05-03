@@ -83,9 +83,9 @@ console.log(instructor);
 // object destructuring//
 const user = { name: "Alice", age: 25, city: "NYC" };
 
-// const name = user.name;
-// const age  = user.age;
-// console.log(name)
+const name = user.name;
+const age  = user.age;
+console.log(name)
 const { name, age } = user;
 console.log(name,age)
 

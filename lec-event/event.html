@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Learning </title>
+    <style>
+        .bg-black{
+            background-color:green;
+            color:blue;
+            
+        }
+    
+    </style>
+</head>
+<body style ="background-color:black; color: brown ;">
+    <div class = "parent">
+
+        <div class ="day"> monday  </div>
+        <div class ="day"> tuesday  </div>
+        <div class ="day"> wednesday</div>
+         <div class ="day"> thrusday  </div>
+
+        <h1 id = "tille" class="heading">Dom learning in Chai Aur code</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+        <button id="MyBtn"> click me </button>
+        
+    </div>
+</body>
+<script>
+    let btn = document.getElementById("MyBtn")
+
+    btn.addEventListener("click" , function(){
+        alert ("button was clicked ");
+
+    });
+
+    
+
+
+    </script>
+</html>
